@@ -16,3 +16,4 @@ This folder contains my assignments and related files for PROG6.
 Author,
 
 Marcus Schmidt
+Tilo Wijkniet

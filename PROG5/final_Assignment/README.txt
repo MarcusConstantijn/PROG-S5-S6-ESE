@@ -1,13 +1,12 @@
 Sensor Library
 
-Dit is de werkende library voor de sensor.
+This is the working library for the sensor.
 
-Compatibiliteit
+Compatibility
 
-De library is getest op de volgende platforms:
+The library has been tested on the following platforms:
 
-Arduino UNO
+- Arduino UNO
+- Raspberry Pi
 
-Raspberry Pi
-
-De library is getest en werkt op beide platforms.
+The library has been tested and confirmed to work on both platforms.

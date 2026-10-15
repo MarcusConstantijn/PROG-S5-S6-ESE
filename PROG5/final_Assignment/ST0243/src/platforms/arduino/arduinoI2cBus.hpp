@@ -6,7 +6,7 @@
 class ArduinoI2cBus : public I2cBus {
 public:
 
-    void begin();
+    bool begin();
 
     int write
     (
@@ -15,7 +15,7 @@ public:
         size_t length
     ) override; 
 
-    int startWriteRead
+    int writeRead
     (
         uint8_t address,
         const uint8_t* txData,

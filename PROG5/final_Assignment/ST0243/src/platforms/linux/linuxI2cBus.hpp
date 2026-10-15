@@ -1,5 +1,9 @@
-#ifndef LINUX_I2C_H
+#ifndef LINUX_I2C_H && defined(__linux__) 
 #define LINUX_I2C_H
+
+
+#if defined(__linux__)
+
 #include "i2cBus.hpp"
 
 
@@ -37,5 +41,5 @@ public:
         int fd;
 };
 
-
+#endif
 #endif

@@ -1,3 +1,4 @@
+#if defined(__linux__)
 
 #include "LinuxI2cBus.hpp"
 
@@ -127,3 +128,5 @@ int LinuxI2cBus::writeRead(
 
     return 0;
 }
+
+#endif

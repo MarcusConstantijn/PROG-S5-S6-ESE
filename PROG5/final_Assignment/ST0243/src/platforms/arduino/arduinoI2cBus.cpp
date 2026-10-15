@@ -1,10 +1,11 @@
 
-#include "ArduinoI2cBus.hpp"
+#include "arduinoI2cBus.hpp"
 #include <Wire.h>
 
-void ArduinoI2cBus::begin()
+bool ArduinoI2cBus::begin()
 {
     Wire.begin();
+    return true;
 }
 
 int ArduinoI2cBus::write(
